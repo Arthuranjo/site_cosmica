@@ -73,8 +73,9 @@ p {
 
 .secao1{
     background-color: lightskyblue;
-    display: flex;
-    width: 100vh;
+    width: 100%;  /* Define a largura como 100% */
+    margin: 0;    /* Remove a margem */
+    padding: 0;   /* Remove o padding */
 }
 
 
