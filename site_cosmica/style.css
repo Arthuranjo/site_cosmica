@@ -58,19 +58,35 @@ section {
     font-style: italic;
 }
 
-section h1{
+section h1 {
     text-align: center;
     margin-bottom: 50px;
 }
 
-p{
+p {
     font-size: 20px;
 }
 
-.paragrafo1{
+.paragrafo1 {
     margin-bottom: 15px;
 }
-.upcycling{
-    display: flexbox;
-    
+
+.upcycling {
+    position: relative; /* Permite posicionar o texto relativo à imagem */
+    background-image: url('imagens/estrelas.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
+    width: 100%; /* Ajusta a largura para 100% do contêiner pai */
+    height: 400px; /* Altura do contêiner; ajuste conforme necessário */
+}
+
+.texto {
+    position: absolute; /* Posiciona o texto sobre a imagem */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza exatamente no meio */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 10px; /* Espaçamento ao redor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
 }
