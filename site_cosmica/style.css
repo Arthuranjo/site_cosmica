@@ -71,24 +71,68 @@ p {
     margin-bottom: 15px;
 }
 
-.upcycling {
+.secao1{
+    background-color: lightskyblue;
+    display: flex;
+    width: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    padding: 100px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.grid-item1 {
+    background-color: #f4f4f4;
+    border: 1px solid rgba(71, 160, 120);
+    padding: 20px;
+    box-shadow: 10px 10px 10px 5px rgb(71, 160, 120);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.grid-item1 h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.grid-item1 p {
+    text-align: center;
+    margin: 0;
+}
+
+/*.upcycling {
     position: relative; 
     background-color: blue;
-    /*background-image: url('imagens/estrelas.jpg');*/
-    background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
+    /*background-image: url('imagens/estrelas.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir o contêiner 
     width: 100vh;
     margin: 0;
-    left: 50%; /*centralizar*/
-    transform: translateX(-50%); /* Ajusta para centralizar */ 
+    left: 50%; /*centralizar
+    transform: translateX(-50%); /* Ajusta para centralizar 
 }
 
 .texto {
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-50%, -50%); /*CENTRALIZANDO NO MEIO*/
+    transform: translate(-50%, -50%); /*CENTRALIZANDO NO MEIO
     color: white;
     text-align: center; 
     padding: 10px; 
     border-radius: 5px; 
-}
+}*/
