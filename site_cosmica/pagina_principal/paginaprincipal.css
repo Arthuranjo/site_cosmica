@@ -53,3 +53,31 @@ nav{
     
    
 }
+
+.navbar {
+    position: relative;
+    height: 60px; /* Ajuste conforme necessário */
+    overflow: hidden;
+}
+
+.navbar-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo cobrir a área da navbar */
+    z-index: -1; /* Coloca o vídeo atrás dos itens da navbar */
+}
+
+.navbar-menu {
+    position: relative;
+    z-index: 1; /* Coloca o menu acima do vídeo */
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
