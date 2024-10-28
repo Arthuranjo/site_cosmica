@@ -15,50 +15,7 @@ body {
     
 }
 
-.cabeçalho {
-    position: relative;
-    overflow: hidden; /* Para esconder partes do vídeo que saem da navbar */
-    padding: 0; /* Remova padding para um melhor ajuste */
-    height: 60px; /* Ajuste conforme necessário */
-}
-
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Faz o vídeo cobrir a área da navbar */
-    z-index: -1; /* Coloca o vídeo atrás dos itens da navbar */
-}
-
-#logocosmica {
-    display: block;
-    margin: 0 auto;  
-    position: relative;
-    z-index: 1; /* Coloca o logo acima do vídeo */
-}
-
-.inicio {
-    display: flex;
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    position: relative;
-    z-index: 1; /* Coloca o menu acima do vídeo */
-}
-
-.inicio li {
-    margin-right: 30px; /* Ajuste o espaço entre os itens do menu */
-}
-
-.inicio li a {
-    color: white;
-    text-decoration: none;
-}
-
-
-/*#logocosmica{
+#logocosmica{
     display: block;
     margin: 0 auto;  
 }
@@ -96,7 +53,7 @@ nav{
     
    
 }
-
+/*
 .navbar {
     position: relative;
     height: 60px; /* Ajuste conforme necessário */
