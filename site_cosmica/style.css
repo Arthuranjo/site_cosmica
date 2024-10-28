@@ -98,6 +98,43 @@ p {
     text-align: center;
 }
 
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.imagem1,
+.imagem2,
+.imagem3 {
+    margin: 10px; 
+}
+
+.img {
+    width: 300px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px; 
+}
+
+.sinais p {
+    font-size: 24px; 
+    margin: 5px 0; 
+}
+
+
+
+
+
+
 
 
 
