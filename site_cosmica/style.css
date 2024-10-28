@@ -73,13 +73,25 @@ p {
 
 .secao1{
    background-image: url('imagens/calca_jeans.jpg');
-    width: 100%;  /* Define a largura como 100% */
+    width: 100%; 
+    height: 400px; /* Define a largura como 100% */
     margin: 0;    /* Remove a margem */
     padding: 0;   /* Remove o padding */
 }
 
-.secao1{
+.titulo1{
+    color: #f4f4f4;
+    display: flex;
+    position: relative;
+    top: 170px;
+    left: 100px;
+    
+   
+}
 
+.texto{
+    color: #f4f4f4;
+    text-align: center;
 }
 
 
