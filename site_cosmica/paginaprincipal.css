@@ -127,26 +127,34 @@ nav{
     margin: auto;
 }
 
-.secao1{
+.secao1 {
     background-color: #61806b;
-     width: 100%;
-     height: 400px; /* Define a largura como 100% */
-     margin: 0;    /* Remove a margem */
-     padding: 0;   /* Remove o padding */
- }
- 
- .titulo1{
-     color: #f4f4f4;
-     display: flex;
-     position: relative;
-     top: 170px;
-     left: 100px;  
- }
+    text-align: center; 
+    width: 100%;
+    height: 400px; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; /* Adiciona flexbox */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /*centraliza vertical*/
+    align-items: center; /* Centraliza horizontal */
+}
+
+.secao1 img {
+    margin: 10px 0; 
+}
+
+.titulo1 {
+    color: #f4f4f4;
+    margin-top: 10px 0;
+}
+
  
  .texto{
      color: #f4f4f4;
      text-align: center;
-     margin: 80px;
+     margin: 30px;
+     margin-top:1;
  }
 
 
@@ -200,5 +208,7 @@ nav{
     width: 400px;
     animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
 }
+
+
 
 
