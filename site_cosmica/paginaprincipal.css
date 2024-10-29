@@ -17,7 +17,9 @@ body {
 
 #logocosmica{
     display: block;
-    margin: 0 auto;  
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;  
 }
 
 .inicio {
@@ -29,55 +31,54 @@ body {
 }
 
 .inicio li {
+
     margin-right: 90px; 
 }
 
 .inicio li a{
+
     color: white;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
 }
 
 .cabeçalho{
-    background: #f4f4f4;
-    padding: 2.7rem;
-    background-color: #61806b;;
-    text-align: center;
-    padding: 15px;
+
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(97, 128, 107, 0.7);
+    padding: 7.7rem;
     
 }
 
 nav{
+
     flex-direction: column;
     display: flex;
     align-items: center;
     
    
 }
-/*
-.navbar {
-    position: relative;
-    height: 60px; /* Ajuste conforme necessário */
-   /* overflow: hidden;
-}
 
-.navbar-video {
+.background-video{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Faz o vídeo cobrir a área da navbar */
-    /*z-index: -1; /* Coloca o vídeo atrás dos itens da navbar */
-/*}
-
-.navbar-menu {
-    position: relative;
-    z-index: 1; /* Coloca o menu acima do vídeo */
-    /*display: flex;
-    align-items: center;
-    height: 100%;
+    object-fit: cover; /* Faz o vídeo cobrir toda a área da navbar */
+    z-index: 0; 
 }
 
-.navbar-menu li {
-    margin: 0 15px;
-}*/
+.mini-borda{
+    text-align: center;
+    background-color: #61806b;
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+.mini-borda li{
+    margin: 10px;
+}
+
