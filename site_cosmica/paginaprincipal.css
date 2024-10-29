@@ -129,7 +129,7 @@ nav{
 
 .secao1{
     background-color: #61806b;
-     
+     width: 100%;
      height: 400px; /* Define a largura como 100% */
      margin: 0;    /* Remove a margem */
      padding: 0;   /* Remove o padding */
@@ -140,14 +140,65 @@ nav{
      display: flex;
      position: relative;
      top: 170px;
-     left: 100px;
-     
-    
+     left: 100px;  
  }
  
  .texto{
      color: #f4f4f4;
      text-align: center;
+     margin: 80px;
  }
+
+
+ .calca-texto {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 90px; 
+}
+
+.calca {
+    flex: 1; 
+    margin-left: 100px; 
+}
+
+.calca img{
+    width: 400px;
+}
+
+.texto-calca {
+    text-align: center;
+    flex: 2; 
+}
+
+.texto-calca h1 {
+    margin-bottom: 10px; 
+}
+
+.texto-calca p {
+    line-height: 4.5; 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(40px); /* aqui ta fazendo o movimento da imagem */
+    }
+    100% {
+        transform: translateY(40);
+    }
+}
+
+.calca img {
+    width: 400px;
+    animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
+}
+
+.mochila img{
+    width: 400px;
+    animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
+}
 
 
