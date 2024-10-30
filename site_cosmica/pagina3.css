@@ -1,0 +1,144 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 251, 251);
+    
+}
+
+#logocosmica{
+    display: block;
+    margin: 0 auto;  
+}
+
+.inicio {
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    margin:  0.1rem 0 0; 
+    
+}
+
+.inicio li {
+    margin-right: 90px; 
+}
+
+.inicio li a{
+    color: white;
+    text-decoration: none;
+}
+
+.cabeçalho{
+    background: #f4f4f4;
+    padding: 2.7rem;
+    background-color: #61806b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+section {
+    margin: 100px;
+    font-style: italic;
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.paragrafo1 {
+    margin-bottom: 15px;
+}
+
+.secao1{
+   background-image: url('imagens/calca_jeans.jpg');
+    width: 100%; 
+    height: 400px;
+    margin: 0;    /* Remove a margem */
+    padding: 0;   /* Remove o padding */
+}
+
+.titulo1{
+    color: #f4f4f4;
+    display: flex;
+    position: relative;
+    top: 170px;
+    left: 100px;
+    
+   
+}
+
+.texto{
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.paragrafo2{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #61806b; /* Cor de fundo do footer */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo img {
+    max-width: 350px; 
+}
+
+.redes-sociais ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    color: white;
+}
+
+.redes-sociais li {
+    margin-left: 15px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.redes-sociais img {
+    margin-right: 5px; 
+}
+
+.instagram{
+    max-width: 40px;
+}
+
+.tiktok{
+    max-width: 70px;
+}
+
+.whatsapp{
+    max-width: 60px;
+}

@@ -275,6 +275,7 @@ nav{
         display: flex; 
         gap: 20px; /* Espaço entre os inputs */
     }
+    
 .envio-informacao {
     flex: 1; 
     min-width: 250px; 
@@ -304,17 +305,6 @@ nav{
 .botao-envio:hover {
     background-color: rgba(255, 255, 255, 0.7); /* Efeito hover para o botão */
 }
-
-
-    
-
-
-
-
-
-
-
-
 
 footer {
     background-color: #61806b; 
