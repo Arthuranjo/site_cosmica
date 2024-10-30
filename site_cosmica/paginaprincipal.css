@@ -210,5 +210,92 @@ nav{
 }
 
 
+.produtos {
+    text-align: center; 
+}
+
+.produto1, .produto2, .produto3, .produto4, .produto5 {
+    display: inline-block; /* aqui permite que os artigos fiquem lado a lado */
+    margin: 20px;
+}
+
+.produto1 img, .produto2 img, .produto3 img, .produto4 img, .produto5 img {
+    max-width: 200px; 
+    height: auto; 
+    transition: transform 0.3s ease; /* Suaviza a transição */
+}
+
+.produto1 img:hover, .produto2 img:hover, .produto3 img:hover, .produto4 img:hover, .produto5 img:hover {
+    transform: translateY(-40px); /* Move a imagem para cima ao passar o mouse */
+}
+
+.botao-produtos {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none; 
+    background-color: #61806b; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: 100px; 
+     
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #61806b; 
+    padding: 20px; /* Espaçamento interno */
+}
+
+.footer-fim {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo-cosmica img {
+    max-width: 350px; 
+}
+
+.midias-sociais ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    color: white;
+}
+
+.midias-sociais li {
+    margin-left: 15px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.midias-sociais img {
+    margin-right: 5px; 
+}
+
+.insta{
+    max-width: 40px;
+}
+
+.tktok{
+    max-width: 70px;
+}
+
+.whats{
+    max-width: 60px;
+}
+
 
 
