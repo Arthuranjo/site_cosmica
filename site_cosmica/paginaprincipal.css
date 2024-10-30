@@ -245,30 +245,61 @@ nav{
 .formulario-principal{
     background-image: url('imagens/calca_jeans.jpg');
      width: 100%; 
-     height: 400px;
+     height: 300px;
      margin: 0;    /* Remove a margem */
      padding: 0;   /* Remove o padding */
      margin-bottom: 100px;
      text-align: center;
  }
 
+ .titulo-formulario{
+    font-size: 30px;
+ }
+
  .titulo-formulario, .subtitulo-formulario{
-    display: block;
+    display: flex;
     color: #f4f4f4;
-    text-align: center;
-    margin: 10px ;
+    justify-content: center;
+    margin-top: 15px; 
+}
+
+.formulario{
+    display: flex; 
+    justify-content: center; 
+    gap: 250px; /* Espaço entre os inputs */
+    margin-top: 50px; 
 }
 
 .envio-informacao {
-    display: block;
-    margin: 50px auto; 
-    width: 80%; 
-    max-width: 400px; 
+    flex: 1; 
+    min-width: 250px; 
+    max-width: 300px;
+    margin: 0; 
+    gap: 50px;
     padding: 10px; 
-    border: none;
-    align-items: baseline; /* Borda para os inputs */
-    
+    border: none; 
+    border-bottom: 2px solid white; 
+    background: transparent; 
+    color: white; 
+    font-size: 16px; 
 }
+
+.botao-envio {
+    display: block;
+    margin: 20px auto;;
+    background: transparent; 
+    color: white;  
+    padding: 10px 40px; 
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 16px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s;
+}
+
+.botao-envio:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Efeito hover para o botão */
+}
+
 
     
 
