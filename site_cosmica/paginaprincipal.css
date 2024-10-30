@@ -264,17 +264,17 @@ nav{
 }
 
 .formulario{
-    /*display: flex; 
-    justify-content: center; 
-    gap: 250px; /* Espaço entre os inputs *
-    margin-top: 50px; */
-        display: flex; /* Ativa o flexbox */
-        flex-direction: column; /* Alinha os elementos em coluna */
-        align-items: center; /* Centraliza os itens horizontalmente */
-        gap: 20px; /* Espaço entre os inputs e o botão */
-        margin-top: 20px; /* Espaço acima do formulário */
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        margin-top: 20px; 
     }
 
+.input-form {
+        display: flex; 
+        gap: 20px; /* Espaço entre os inputs */
+    }
 .envio-informacao {
     flex: 1; 
     min-width: 250px; 
