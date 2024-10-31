@@ -303,8 +303,53 @@ nav{
 }
 
 .botao-envio:hover {
-    background-color: rgba(255, 255, 255, 0.7); /* Efeito hover para o botão */
+    background-color: rgba(255, 255, 255, 0.7); 
 }
+
+.parte-final {
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 70px;
+}
+
+.titulo-container {
+    margin-right: 100px; /* aqui eu to mexendo no espaço entre o título e as imagens */
+}
+
+.ultimo-titulo, .ultimo-subtitulo {
+    
+    margin: 0px; 
+    margin-left: 100px;
+}
+
+.ultimo-subtitulo{
+    font-size: 12px;
+    color: gray;
+}
+
+.imagens-nosso-trabalho{
+    display: flex; 
+}
+
+.imagem-trabalho1, .imagem-trabalho2, .imagem-trabalho3 {
+    margin: 0 80px; /* aqui eu to mexendo na margem lateral dos lados */
+}
+
+.imagem-trabalho1 img, .imagem-trabalho2 img, .imagem-trabalho3 img {
+    width: 300px; 
+    height: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #61806b; 
@@ -349,6 +394,7 @@ footer {
 .whats{
     max-width: 60px;
 }
+
 
 
 
