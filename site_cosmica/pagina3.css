@@ -67,37 +67,84 @@ p {
     font-size: 20px;
 }
 
-.paragrafo1 {
+.mudanca-mundo {
     margin-bottom: 15px;
 }
 
-.secao1{
+
+.mochila-atitude {
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start; /* aqui eu to alinhando todos à esquerda */ 
+    margin-left:  190px; 
+}
+
+.texto-atitude {
+    text-align: left;
+    flex: 1; 
+    margin-right: 0px; 
+}
+
+.mochila-mudanca {
+    flex: 0 0 auto; 
+}
+
+.mochila-mudanca img {
+
+    width: 400px; 
+}
+
+.texto-atitude h1 {
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.texto-atitude p {
+    line-height: 1.5; 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(40px); /* aqui ta fazendo o movimento da imagem */
+    }
+    100% {
+        transform: translateY(40);
+    }
+
+}
+.mochila-mudanca img {
+    width: 400px;
+    animation: moveUpDown 2s ease-in-out infinite; 
+}
+
+
+.fazemos-juntos{
    background-image: url('imagens/calca_jeans.jpg');
     width: 100%; 
     height: 400px;
-    margin: 0;    /* Remove a margem */
-    padding: 0;   /* Remove o padding */
+    margin: 0;   
+    padding: 0;   
+    margin-bottom: 50px;
 }
 
-.titulo1{
+.mudanca{
     color: #f4f4f4;
     display: flex;
     position: relative;
     top: 170px;
     left: 100px;
-    
-   
 }
 
-.texto{
+.texto-mudanca{
     color: #f4f4f4;
-    text-align: center;
-}
+    display: flex;
+    justify-content: center;
 
-.paragrafo2{
-    text-align: center;
 }
-
 
 footer {
     background-color: #61806b; /* Cor de fundo do footer */
