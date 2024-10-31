@@ -122,33 +122,32 @@ p {
 }
 
 
-.fazemos-juntos{
-   background-image: url('imagens/calca_jeans.jpg');
+.fazemos-juntos {
+    background-image: url('imagens/calca_jeans.jpg');
     width: 100%; 
     height: 400px;
     margin: 0;   
     padding: 0;   
     margin-bottom: 50px;
+    display: flex; 
+    align-items: center; 
+    padding-left: 100px; 
 }
 
-.mudanca{
+.mudanca {
     color: #f4f4f4;
-    display: flex;
-    position: relative;
-    top: 170px;
-    left: 100px;
+    margin-right: 290px; 
 }
 
-.texto-mudanca{
+.texto-mudanca {
     color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-
+    max-width: 600px; 
 }
+
 
 footer {
     background-color: #61806b; /* Cor de fundo do footer */
-    padding: 20px; /* Espaçamento interno */
+    padding: 20px; 
 }
 
 .footer-content {
