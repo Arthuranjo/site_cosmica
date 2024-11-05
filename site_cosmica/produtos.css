@@ -53,17 +53,17 @@ nav{
    
 }
 
-section {
+.nossos-produtos {
     margin: 100px;
     font-style: italic;
 }
 
-section h1 {
+.nossos-produtos h1 {
     text-align: center;
     margin-bottom: 50px;
 }
 
-p {
+.nossos-produtos p {
     font-size: 20px;
 }
 
@@ -71,24 +71,77 @@ p {
     margin-bottom: 15px;
 }
 
-.tabela-produtos{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px solid green;
-    border-radius: 10px;
-    margin-bottom: 100px;
-    
+
+.blocos-produtos {
+    display: flex;                  
+    justify-content: space-between;  
+    gap: 20px;                       
+    flex-wrap: wrap;                 
+    margin: 0 auto;                  
+    max-width: 1200px;               
+    padding: 20px;
 }
 
-.tabela-produtos h3{
-    text-align: center;
+
+.tabela-produtos {
+    display: flex;                  
+    flex-direction: column;          
+    align-items: center;             
+    width: 30%;                     
+    border: 2px solid green;         
+    border-radius: 10px;            
+    padding: 10px;                  
+    box-sizing: border-box;          
 }
 
-.tabela-produtos img{
-    width: 100px ;
+.tabela-produtos h3 {
+    text-align: center;              
+    margin-bottom: 10px;             
 }
 
+.tabela-produtos img {
+    width: 100px;                   
+    height: auto;                   
+}
+
+
+.mochila-produto {
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start; /* aqui eu to alinhando todos à esquerda */ 
+    margin-left:  190px; 
+}
+
+.texto-produto {
+    text-align: left;
+    flex: 1; 
+    margin-right: 0px; 
+}
+
+
+
+.produto-mochila {
+    flex: 0.3 0 auto; 
+}
+
+.produto-mochila img {
+
+    width: 400px; 
+}
+
+.texto-mochila h1 {
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.texto-mochila p {
+    line-height: 1.5; 
+}
+
+.produto-mochila img {
+    width: 400px;
+}
 
 
 
