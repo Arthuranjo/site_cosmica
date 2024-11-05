@@ -1,0 +1,407 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 251, 251);
+    
+}
+
+#logocosmica{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;  
+    width: 20%;
+}
+
+.inicio {
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    margin:  0.1rem 0 0; 
+    justify-content: center;
+    position: fixed; /* Fixa a navbar */
+    top: 0; /* Define o topo da página */
+    width: 100%; /* Faz a navbar ocupar toda a largura */
+    z-index: 1000; /* Garante que a navbar fique sobre outros elementos */
+}
+
+.inicio li {
+
+    margin-right: 90px; 
+}
+
+.inicio li a{
+
+    color:#485f4f;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.cabeçalho{
+
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(97, 128, 107, 0.7);
+    padding: 7.7rem;
+    
+}
+
+nav{
+
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.background-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo cobrir toda a área da navbar */
+    z-index: 0; 
+}
+
+.mini-borda{
+    text-align: center;
+    background-color: #61806b;
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+.mini-borda li{
+    margin: 10px;
+}
+
+
+.mochila-texto {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 90px; 
+}
+
+.mochila {
+    flex: 0 0 100px; 
+    margin-right: 100px; 
+    min-height: 10px;
+}
+
+.mochila img{
+    width: 400px;
+}
+
+.texto-mochila {
+    text-align: center;
+    flex: 2; 
+}
+
+.texto-mochila h1 {
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.texto-mochila p {
+    line-height: 4.5; 
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #61806b;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+}
+
+.secao1 {
+    background-color: #61806b;
+    text-align: center; 
+    width: 100%;
+    height: 400px; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /*centraliza vertical*/
+    align-items: center; /* Centraliza horizontal */
+}
+
+.secao1 img {
+    margin: 2px 0; 
+}
+
+.titulo1 {
+    color: #f4f4f4;
+    margin-top: 5px 0;
+}
+
+ 
+ .texto{
+     color: #f4f4f4;
+     text-align: center;
+     margin: 30px;
+     margin-top:1;
+ }
+
+
+ .calca-texto {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 90px; 
+}
+
+.calca {
+    flex: 1; 
+    margin-left: 100px; 
+}
+
+.calca img{
+    width: 400px;
+}
+
+.texto-calca {
+    text-align: center;
+    flex: 2; 
+}
+
+.texto-calca h1 {
+    margin-bottom: 10px; 
+}
+
+.texto-calca p {
+    line-height: 2.5; 
+
+}
+
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(40px); /* aqui ta fazendo o movimento da imagem */
+    }
+    100% {
+        transform: translateY(40);
+    }
+}
+
+.calca img {
+    width: 400px;
+    animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
+}
+
+.mochila img{
+    width: 400px;
+    animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
+}
+
+
+.produtos {
+    text-align: center; 
+}
+
+.produto1, .produto2, .produto3, .produto4, .produto5 {
+    display: inline-block; /* aqui permite que os artigos fiquem lado a lado */
+    margin: 20px;
+}
+
+.produto1 img, .produto2 img, .produto3 img, .produto4 img, .produto5 img {
+    max-width: 200px; 
+    height: auto; 
+    transition: transform 0.3s ease; /* Suaviza a transição */
+}
+
+.produto1 img:hover, .produto2 img:hover, .produto3 img:hover, .produto4 img:hover, .produto5 img:hover {
+    transform: translateY(-40px); /* Move a imagem para cima ao passar o mouse */
+}
+
+.botao-produtos {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none; 
+    background-color: #61806b; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: 100px; 
+    margin-bottom: 100px;
+     
+}
+
+.formulario-principal{
+    background-image: url('imagens/calca_jeans.jpg');
+     width: 100%; 
+     height: 300px;
+     margin: 0;    /* Remove a margem */
+     padding: 0;   /* Remove o padding */
+     margin-bottom: 100px;
+     text-align: center;
+ }
+
+ .titulo-formulario{
+    font-size: 30px;
+ }
+
+ .titulo-formulario, .subtitulo-formulario{
+    display: flex;
+    color: #f4f4f4;
+    justify-content: center;
+    margin-top: 15px; 
+}
+
+.formulario{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        margin-top: 20px; 
+    }
+
+.input-form {
+        display: flex; 
+        gap: 20px; /* Espaço entre os inputs */
+    }
+    
+.envio-informacao {
+    flex: 1; 
+    min-width: 250px; 
+    max-width: 300px;
+    margin: 0; 
+    gap: 50px;
+    padding: 10px; 
+    border: none; 
+    border-bottom: 2px solid white; 
+    background: transparent; 
+    color: white; 
+    font-size: 16px; 
+}
+
+.botao-envio {
+    display: block;
+    margin: 20px auto;;
+    background: transparent; 
+    color: white;  
+    padding: 10px 40px; 
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 16px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s;
+}
+
+.botao-envio:hover {
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.parte-final {
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 70px;
+}
+
+.titulo-container {
+    margin-right: 100px; /* aqui eu to mexendo no espaço entre o título e as imagens */
+}
+
+.ultimo-titulo, .ultimo-subtitulo {
+    
+    margin: 0px; 
+    margin-left: 100px;
+}
+
+.ultimo-subtitulo{
+    font-size: 12px;
+    color: gray;
+}
+
+.imagens-nosso-trabalho{
+    display: flex; 
+    
+}
+.imagem-trabalho1, .imagem-trabalho2, .imagem-trabalho3 {
+    margin: 0 80px; /* aqui eu to mexendo na margem lateral dos lados */
+    
+}
+
+.imagem-trabalho1 img, .imagem-trabalho2 img, .imagem-trabalho3 img {
+    width: 100%; 
+    height: auto; 
+}
+footer {
+    background-color: #61806b; 
+    padding: 20px; /* Espaçamento interno */
+}
+
+.footer-fim {
+    justify-content: space-between; 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    align-items: start; 
+}
+.u{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ul.u{
+    padding: 8%;
+}
+.logo-cosmica img {
+    max-width: 350px; 
+    width: 35%;
+    padding: 8%;
+}
+
+.midias-sociais ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    color: white;
+}
+
+.midias-sociais li {
+    margin-left: 15px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.midias-sociais img {
+    margin-right: 5px; 
+}
+
+.insta{
+    max-width: 40px;
+}
+
+.tktok{
+    max-width: 70px;
+}
+
+.whats{
+    max-width: 60px;
+}
+.log{
+    width: 10%;
+}

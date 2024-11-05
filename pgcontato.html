@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" href="imagens/logo.png" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body class="font">
+    <nav class="cabeçalho">
+        <img id="logocosmica" src="imagens/logocompleta.png">  
+          <ul class="inicio">
+            <li><a class="n" href="paginaprincipal.html"><b>HOME</b></a></li>
+            <li><a class="n" href="index.html"><b>AFETO</b></a></li>
+            <li><a class="n" href="pagina3.html"><b>IMPACTO</b></a></li>
+            <li><a class="n" href="produtos.html"><b>PRODUTOS</b></a></li>
+            <li><a class="n" href="pgcontato.html"><b>CONTATOS</b></a></li>
+          </ul>
+      </nav>
+    <main>
+        <div class="conteiner">
+            <section class="texto">
+                <div class="t1">
+                    <h1>FAÇA PARTE DA MUDANÇA!</h1>
+                </div>
+                <div class="t2">
+                    <p>Quer solicitar um orçamento e saber mais do nosso trabalho?</p>
+                </div>
+                <div class="t3">
+                    <p>Preencha o formulário ao lado</p>
+                </div>
+            </section>
+            <section id="formu">
+                <form class="formulario" >
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="tel" id="whatsapp" name="whatsapp"  pattern="\+?[0-9\s\-\(\)]{8,15}" placeholder="(XX) XXXXX-XXXX" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <div class="botao">
+                        <button class="enviar" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div> 
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="imagens/logocompleta.png" alt="Logo Cosmica Cria">
+            </div>
+            <div class="redes-sociais">
+                <ul class="u">
+                    <li>
+                        <img class="instagram" src="imagens/instagram.png" alt="Instagram">
+                        @COSMICACRIA
+                    </li>
+                    <li>
+                        <img class="tiktok" src="imagens/tiktok.png" alt="TikTok">
+                        @COSMICA-CRIA
+                    </li>
+                    <li>
+                        <img class="whatsapp" src="imagens/whatsapp.png" alt="WhatsApp">
+                        @(99) 99999-9999
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
