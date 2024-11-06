@@ -53,56 +53,6 @@ nav{
    
 }
 
-.nossos-produtos {
-    margin: 100px;
-    font-style: italic;
-}
-
-.nossos-produtos h1 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.nossos-produtos p {
-    font-size: 20px;
-}
-
-.primeiro-paragrafo {
-    margin-bottom: 15px;
-}
-
-
-.blocos-produtos {
-    display: flex;                  
-    justify-content: space-between;  
-    gap: 20px;                       
-    flex-wrap: wrap;                 
-    margin: 0 auto;                  
-    max-width: 1200px;               
-    padding: 20px;
-}
-
-
-.tabela-produtos {
-    display: flex;                  
-    flex-direction: column;          
-    align-items: center;             
-    width: 30%;                     
-    border: 2px solid green;         
-    border-radius: 10px;            
-    padding: 10px;                  
-    box-sizing: border-box;          
-}
-
-.tabela-produtos h3 {
-    text-align: center;              
-    margin-bottom: 10px;             
-}
-
-.tabela-produtos img {
-    width: 100px;                   
-    height: auto;                   
-}
 
 
 .mochila-produto {
@@ -111,6 +61,7 @@ nav{
     align-items: center;
     justify-content: flex-start; /* aqui eu to alinhando todos à esquerda */ 
     margin-left:  190px; 
+    margin-top: 100px;
 }
 
 .texto-produto {
@@ -118,8 +69,6 @@ nav{
     flex: 1; 
     margin-right: 0px; 
 }
-
-
 
 .produto-mochila {
     flex: 0.3 0 auto; 
@@ -144,6 +93,133 @@ nav{
     width: 400px;
 }
 
+
+
+.titulo-produto{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px; 
+}
+
+
+.blocos-produtos {
+    display: flex;                  
+    justify-content: space-between;  
+    gap: 20px;                       
+    flex-wrap: wrap;                 
+    margin: 0 auto;                  
+    max-width: 1200px;               
+    padding: 20px;
+}
+
+
+.tabela-produtos {
+    display: flex;                  
+    flex-direction: column;          
+    align-items: center;             
+    width: 30%;                     
+    border: none;
+    background-color: #61806b;                     
+    padding: 150px;                  
+    box-sizing: border-box;  
+    box-shadow: 10px 10px 10px 5px rgb(137, 137, 137);           
+}
+
+.precos-container {
+    display: flex; 
+    justify-content: space-between;                            
+    gap: 250px; 
+    width: 100%;                 
+    margin-top: 20px;   
+    justify-content: center; 
+                 
+}
+.preco-descricao{                    
+    text-align: center;
+}
+
+.preco{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tabela-produtos p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/*SESÃO PRODUTOS*/
+
+.titulo-sessao{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.informacoes-principais {
+    display: flex;                  
+    flex-direction: column;          
+    align-items: center;             
+    width: 30%;                     
+    border: none;         
+    border-radius: 10px;            
+    padding: 10px;                  
+    box-sizing: border-box;  
+    box-shadow: 10px 10px 10px 5px rgb(137, 137, 137);        
+}
+
+.informacoes-principais h3 {
+    text-align: center;              
+    margin-bottom: 10px;             
+}
+
+.informacoes-principais img {
+    width: 100px;                   
+    height: auto;                   
+}
+
+
+
+
+
+
+
+
+
+.sessao-produtos {
+    display: flex;                  
+    justify-content: space-between;  
+    gap: 20px;                       
+    flex-wrap: wrap;                 
+    margin: 0 auto;                  
+    max-width: 1200px;               
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+.informacoes-produtos {
+    display: flex;                  
+    flex-direction: column;          
+    align-items: center;             
+    width: 30%;                     
+    border: none;         
+    border-radius: 10px;            
+    padding: 10px;                  
+    box-sizing: border-box;  
+    box-shadow: 10px 10px 10px 5px rgb(137, 137, 137);        
+}
+
+.informacoes-produtos h3 {
+    text-align: center;              
+    margin-bottom: 10px;             
+}
+
+.informacoes-produtos img {
+    width: 100px;                   
+    height: auto;                   
+}
 
 
 
