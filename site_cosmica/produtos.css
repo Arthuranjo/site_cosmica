@@ -106,6 +106,7 @@ nav{
 
 
 .mochila-produto {
+    font-style: italic;
     display: flex;  
     align-items: center;
     justify-content: flex-start; /* aqui eu to alinhando todos à esquerda */ 
