@@ -103,51 +103,57 @@ nav{
 
 
 .blocos-produtos {
-    display: flex;                  
-    justify-content: space-between;  
-    gap: 20px;                       
-    flex-wrap: wrap;                 
-    margin: 0 auto;                  
-    max-width: 1200px;               
-    padding: 20px;
+    display: flex;                 
+    justify-content: space-between; 
+    gap: 20px;                      
+    flex-wrap: wrap;                
+    margin: 0 auto;                
+    max-width: 1200px;             
+    padding: 20px;                  
 }
-
 
 .tabela-produtos {
     display: flex;                  
-    flex-direction: column;          
+    flex-direction: column;           
     align-items: center;             
-    width: 30%;                     
+    width: 30%;                        
     border: none;
-    background-color: #61806b;                     
-    padding: 150px;                  
-    box-sizing: border-box;  
-    box-shadow: 10px 10px 10px 5px rgb(137, 137, 137);           
+    background-color: #61806b;        
+    padding: 100px;                   
+    box-sizing: border-box;           
+    box-shadow: 10px 10px 10px 5px rgb(137, 137, 137); 
+    position: relative;              
 }
 
 .precos-container {
-    display: flex; 
-    justify-content: space-between;                            
-    gap: 250px; 
-    width: 100%;                 
-    margin-top: 20px;   
-    justify-content: center; 
-                 
-}
-.preco-descricao{                    
-    text-align: center;
+    display: flex;                    
+    justify-content: space-between;   
+    gap: 50px;                         
+    width: 100%;                       
+    margin-top: 20px;                 
+    justify-content: center;           
 }
 
-.preco{
-    font-weight: bold;
-    margin-bottom: 10px;
+
+.preco-descricao {
+    text-align: center;               
+    width: 30%;                      
 }
 
-.tabela-produtos p{
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
+.preco {
+    font-size: 24px;                   
+    font-weight: bold;                
+    margin-bottom: 10px;              
 }
+
+
+.tabela-produtos p {
+    font-size: 16px;                  
+    line-height: 1.5;                  
+    text-align: center;                
+}
+
+
 
 
 /*SESÃO PRODUTOS*/
