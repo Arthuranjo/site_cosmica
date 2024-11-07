@@ -164,8 +164,9 @@ nav{
 
 .produtos{
     display: flex;
-    background-color:   rgba(128, 128, 128, 0.5);
-    justify-content: space-between;  
+    justify-content: space-between; 
+    border: none;
+    /*background-color: rgba(128, 128, 128, 0.2);*/ 
 }
 
 .todos-produtos{
@@ -173,11 +174,13 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 200px;
+    
 }
 
 
 .nossos-produtos{
-    border: 5px solid #61806b;
+    border: none;
+    box-shadow: 10px 10px 10px 5px rgb(137, 137, 137);
     margin-top: 10px;
     width: 300px;
     margin-bottom: 10px;
@@ -219,7 +222,7 @@ nav{
 }
 
 .produto-principal{
-    border: 5px solid #61806b;
+    border: none;
     margin-top: 10px;
     margin-bottom: 100px;
     margin-left: 100px;

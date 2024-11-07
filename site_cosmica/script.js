@@ -15,6 +15,18 @@ function mostrarDetalhes(produtoId) {
             img: "imagens/mochila-principal.png",
             titulo: "BOLSA AFETO 3",
             descricao: "Bolsa versátil com espaço interno espaçoso e acabamento de alta qualidade."
+        },
+
+        4: {
+            img: "imagens/mochila-principal.png",
+            titulo: "BOLSA AFETO 4",
+            descricao: "Bolsa transversal com dois bolsos internos, ideal para o seu dia a dia."
+        },
+
+        5: {
+            img: "imagens/mochila-principal.png",
+            titulo: "BOLSA AFETO 5",
+            descricao: "Bolsa transversal com dois bolsos internos, ideal para o seu dia a dia."
         }
     };
 
