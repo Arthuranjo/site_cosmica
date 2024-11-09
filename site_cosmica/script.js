@@ -26,14 +26,15 @@ function mostrarDetalhes(produtoId) {
             titulo: "BOLSA AFETO 4",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:"
-            
+
         },
 
         5: {
             img: "imagens/mochila-principal.png",
             titulo: "BOLSA AFETO 5",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
-            subtitulo: "INFORMAÇÕES ADICIONAIS:"
+            subtitulo: "INFORMAÇÕES ADICIONAIS:",
+            detalhes: ["item a", "item b", "item c"]
         },
 
     };
@@ -44,4 +45,9 @@ function mostrarDetalhes(produtoId) {
     document.getElementById("produto-principal-titulo").innerText = produto.titulo;
     document.getElementById("produto-principal-descricao").innerText = produto.descricao;
     document.getElementById("produto-principal-subtitulo").innerHTML = produto.subtitulo;
+    document.getElementById("lista-descricao").innerHTML = produto.detalhes;
+
+
+
 }
+
