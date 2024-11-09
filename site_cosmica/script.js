@@ -3,31 +3,39 @@ function mostrarDetalhes(produtoId) {
     const produtos = {
         1: {
             img: "imagens/mochila-principal.png",
-            titulo: "BOLSA AFETO 1",
-            descricao: "Bolsa transversal com dois bolsos internos, ideal para o seu dia a dia."
+            titulo: "BOLSA TRANSVERSAL AFETO",
+            descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
+            subtitulo: "INFORMAÇÕES ADICIONAIS:",
+            
         },
         2: {
             img: "imagens/calcaprincipal.png",
             titulo: "BOLSA AFETO 2",
-            descricao: "Bolsa compacta com bolso lateral e alças ajustáveis."
+            descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
+            subtitulo: "INFORMAÇÕES ADICIONAIS:"
         },
         3: {
             img: "imagens/mochila-principal.png",
             titulo: "BOLSA AFETO 3",
-            descricao: "Bolsa versátil com espaço interno espaçoso e acabamento de alta qualidade."
+            descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
+            subtitulo: "INFORMAÇÕES ADICIONAIS:"
         },
 
         4: {
             img: "imagens/mochila-principal.png",
             titulo: "BOLSA AFETO 4",
-            descricao: "Bolsa transversal com dois bolsos internos, ideal para o seu dia a dia."
+            descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
+            subtitulo: "INFORMAÇÕES ADICIONAIS:"
+            
         },
 
         5: {
             img: "imagens/mochila-principal.png",
             titulo: "BOLSA AFETO 5",
-            descricao: "Bolsa transversal com dois bolsos internos, ideal para o seu dia a dia."
-        }
+            descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valorizao meio ambiente e transforma desperdício em beleza.",
+            subtitulo: "INFORMAÇÕES ADICIONAIS:"
+        },
+
     };
 
     
@@ -35,4 +43,5 @@ function mostrarDetalhes(produtoId) {
     document.getElementById("produto-principal-img").src = produto.img;
     document.getElementById("produto-principal-titulo").innerText = produto.titulo;
     document.getElementById("produto-principal-descricao").innerText = produto.descricao;
+    document.getElementById("produto-principal-subtitulo").innerHTML = produto.subtitulo;
 }
