@@ -232,28 +232,51 @@ nav{
     font-size: 0.9em;
 }
 
-.produto-principal{
-    background: #f4f4f4; 
+.produto-principal {
+    background: #f4f4f4;
     border-radius: 10px;
     margin-top: 40px;
     margin-bottom: 100px;
     flex: 1;
     align-self: flex-start;
-    height: 800px;
-    max-width: 800px ;
+    height: 1000px;
+    max-width: 800px;
     margin-right: 100px;
     text-align: center;
 }
-.produto-principal img {
+
+#produto-principal-img {
     border-radius: 10px;
     background-color: #61806b;
-    width: 100%; 
-    max-width: 300px; 
-    height: auto; 
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     margin-bottom: 20px;
 }
 
+.miniaturas {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 20px;
+   
+}
 
+.miniatura {
+    background-color: #61806b;
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.miniatura:hover {
+    transform: scale(1.1);
+    border-color: #61806b; 
+}
 .informacao-produto h1{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -262,7 +285,6 @@ nav{
 #produto-principal-titulo {
     font-size: 1.5em;
     margin-top: 20px;
-    
 }
 
 #produto-principal-descricao {
@@ -272,33 +294,37 @@ nav{
 
 #produto-principal-subtitulo{
     font-size: 1.5em;
-    margin-top: 40px; 
+    margin-top: 40px;
     display: flex;
     align-items: flex-start;
     margin-left: 30px;
 }
-ul.u{
-    padding: 5%;
+
+#lista-descricao{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 20px;
+    list-style-type: disc;
+    margin-bottom: 30px;
 }
 
-    
-
-
-
-
-#lista-descricao {
-    font-size: 1rem;               
-    list-style-type: disc;         
-    margin-left: 30px;             
-    padding-left: 0;             
+#lista-descricao li{
+    margin-bottom: 10px;
 }
 
-#lista-descricao li {
-    margin-bottom: 10px;          
-    padding-left: 20px;            
+#mostrarDetalhesBtn{
+    border-radius: 10px;
+    background-color: #61806b;
+    border: none;
+    width: 100px;
+}
+
+#mostrarMenosBtn{
+    border: none;
+    border-radius: 10px;
+    background-color: #61806b;
 }
 
 

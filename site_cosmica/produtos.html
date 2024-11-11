@@ -97,11 +97,8 @@
     </section>
 
 
- 
     <section class="produtos">
-
         <article class="todos-produtos">
-            
             <article class="nossos-produtos" onclick="mostrarDetalhes(1)">
                 <div class="produto-conteudo">
                     <img src="imagens/mochila-principal.png" alt="Mochila Afeto" id="produto1-img">
@@ -112,7 +109,6 @@
                 </div>
             </article>
     
-            
             <article class="nossos-produtos" onclick="mostrarDetalhes(2)">
                 <div class="produto-conteudo">
                     <img src="imagens/calcaprincipal.png" alt="Mochila Afeto" id="produto2-img">
@@ -123,7 +119,6 @@
                 </div>
             </article>
     
-            
             <article class="nossos-produtos" onclick="mostrarDetalhes(3)">
                 <div class="produto-conteudo">
                     <img src="imagens/mochila-principal.png" alt="Mochila Afeto" id="produto3-img">
@@ -133,21 +128,20 @@
                     </div>
                 </div>
             </article>
-
+    
             <article class="nossos-produtos" onclick="mostrarDetalhes(4)">
                 <div class="produto-conteudo">
-                    <img src="imagens/calcaprincipal.png" alt="Mochila Afeto" id="produto1-img">
+                    <img src="imagens/calcaprincipal.png" alt="Mochila Afeto" id="produto4-img">
                     <div class="texto-produto">
                         <h1>BOLSA <br>AFETO</h1>
                         <p>Bolsa transversal com dois<br>bolsos internos</p>
                     </div>
                 </div>
             </article>
-    
     
             <article class="nossos-produtos" onclick="mostrarDetalhes(5)">
                 <div class="produto-conteudo">
-                    <img src="imagens/mochila-principal.png" alt="Mochila Afeto" id="produto1-img">
+                    <img src="imagens/mochila-principal.png" alt="Mochila Afeto" id="produto5-img">
                     <div class="texto-produto">
                         <h1>BOLSA <br>AFETO</h1>
                         <p>Bolsa transversal com dois<br>bolsos internos</p>
@@ -155,33 +149,36 @@
                 </div>
             </article>
         </article>
-
-        
-    </article>
-        
     
+        <article class="produto-principal">
+            <article class="informacao-produto">
+                <h1>INFORMAÇÕES DETALHADAS</h1>
+                
+                
+                <img id="produto-principal-img" src="" alt="Selecione o Produto">
+                
+                
+                <div class="miniaturas">
+                    <img class="miniatura" src="imagens/calça.png" alt="Miniatura 1" onclick="mudarImagem('imagens/calça.png')">
+                    <img class="miniatura" src="imagens/mochila-principal.png" alt="Miniatura 2" onclick="mudarImagem('imagens/mochila-principal.png')">
+                    <img class="miniatura" src="imagens/calça.png" alt="Miniatura 3" onclick="mudarImagem('imagens/calça.png')">
+                    <img class="miniatura" src="imagens/calça.png" alt="Miniatura 4" onclick="mudarImagem('imagens/calça.png')">
+                </div>
         
-    <article class="produto-principal">
-        <article class="informacao-produto">
-            <h1>INFORMAÇÕES DETALHADAS</h1>
-            <img id="produto-principal-img" src="" alt="Imagem do Produto">
-            <h2 id="produto-principal-titulo">Escolha um produto</h2>
-            <p id="produto-principal-descricao">Selecione um dos produtos acima para ver os detalhes completos.</p>
-            <h2 id="produto-principal-subtitulo"></h2>
-            <ul id="lista-descricao"></ul>
-    
+                <h2 id="produto-principal-titulo">Escolha um produto</h2>
+                <p id="produto-principal-descricao">Selecione um dos produtos acima para ver os detalhes completos.</p>
+                <h2 id="produto-principal-subtitulo"></h2>
+                <ul id="lista-descricao"></ul>
         
-            <button id="mostrarDetalhesBtn" onclick="mostrarDetalhes(5)">Mostrar Detalhes</button>
-            <button id="mostrarMenosBtn" onclick="mostrarMenosDetalhes()" style="display:none;">Mostrar Menos Detalhes</button>
+                <button id="mostrarDetalhesBtn" style="display:none;">Mostrar Detalhes</button>
+                <button id="mostrarMenosBtn" onclick="mostrarMenosDetalhes()" style="display:none;">Mostrar Menos Detalhes</button>
+            </article>
         </article>
-    </article>
-    
-
-
         
+        
+        </article>
     </section>
     
-
 
 
 
