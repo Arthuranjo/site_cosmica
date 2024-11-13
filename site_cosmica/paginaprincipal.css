@@ -425,6 +425,10 @@ footer a:hover {
 }
 
 
+.redes-sociais p{
+    font-weight: bold;
+}
+
 header.borda-final {
     padding: 10px;
     background-color:#738d7b; 

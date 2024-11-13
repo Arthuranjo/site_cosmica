@@ -393,44 +393,74 @@ nav{
 
 footer {
     background-color: #61806b; 
-    padding: 20px; /* Espaçamento interno */
+    padding: 20px; 
+    
+}
+
+footer p, li, h5{
+    color: #f4f4f4;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #f4f4f4; 
+    transition: background-color 0.3s ease, color 0.2s ease; 
+}
+
+footer a:hover { 
+    background-color: rgba(59, 59, 59, 0.7); 
 }
 
 .footer-content {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
+   
+ display: flex;
+ flex-direction:column;
 }
 
-.logo img {
-    width: 15%; 
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.redes-sociais ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    color: white;
+
+.redes-sociais p{
+    font-weight: bold;
 }
 
-.redes-sociais li {
-    margin-left: 15px; 
-    display: flex; 
-    align-items: center; 
+header.borda-final {
+    padding: 10px;
+    background-color:#738d7b; 
 }
 
-.redes-sociais img {
-    margin-right: 5px; 
+
+.itens-final {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
 }
 
-.instagram{
-    max-width: 40px;
+
+.itens-final ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.tiktok{
-    max-width: 70px;
+
+.itens-final img {
+    max-width: 230px; 
+    max-height: 30px; 
+    margin: 0 10px; 
 }
 
-.whatsapp{
-    max-width: 60px;
+.logo-final{
+    width: 90%;
+}
+
+.insta, .whats {
+    display: inline-block;
 }
