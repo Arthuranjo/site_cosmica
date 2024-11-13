@@ -390,51 +390,81 @@ ul.u{
 
 
 
-
-
 footer {
     background-color: #61806b; 
-    padding: 20px; /* Espaçamento interno */
+    padding: 20px; 
+    
 }
 
-.footer-fim {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
+footer p, li, h5{
+    color: #f4f4f4;
+    
 }
 
-.logo-cosmica img {
-    width: 15%;
+footer a {
+    text-decoration: none;
+    color: #f4f4f4; 
+    transition: background-color 0.3s ease, color 0.2s ease; 
 }
 
-.midias-sociais ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    color: white;
+footer a:hover { 
+    background-color: rgba(59, 59, 59, 0.7); 
 }
 
-.midias-sociais li {
-    margin-left: 15px; 
-    display: flex; 
-    align-items: center; 
+.footer-content {
+   
+ display: flex;
+ flex-direction:column;
 }
 
-.midias-sociais img {
-    margin-right: 5px; 
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.insta{
-    max-width: 40px;
+
+header.borda-final {
+    padding: 10px;
+    background-color:#738d7b; 
 }
 
-.tktok{
-    max-width: 70px;
+
+.itens-final {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
 }
 
-.whats{
-    max-width: 60px;
+
+.itens-final ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+
+
+.itens-final img {
+    max-width: 230px; 
+    max-height: 30px; 
+    margin: 0 10px; 
+}
+
+.logo-final{
+    width: 90%;
+}
+
+.insta, .whats {
+    display: inline-block;
+}
+
+
+
+
+
+
 
 
 
