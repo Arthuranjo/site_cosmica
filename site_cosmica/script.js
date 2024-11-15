@@ -1,6 +1,5 @@
 let detalhesVisiveis = false;  
 
-
 function mostrarDetalhes(produtoId) {
     const produtos = {
         1: {
@@ -58,12 +57,11 @@ function mostrarDetalhes(produtoId) {
         listaDescricao.appendChild(li);
     });
 
-   
     detalhesVisiveis = true;
     document.getElementById("mostrarDetalhesBtn").style.display = 'none'; 
     document.getElementById("mostrarMenosBtn").style.display = 'inline-block'; 
     
-     document.getElementById("mostrarDetalhesBtn").onclick = function() {
+    document.getElementById("mostrarDetalhesBtn").onclick = function() {
         mostrarDetalhes(produtoId);
     };
 }

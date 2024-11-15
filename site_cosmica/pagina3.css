@@ -1,4 +1,4 @@
-body, h1, h2, p, ul {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,34 +12,32 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-    
 }
 
-#logocosmica{
+#logocosmica {
     display: block;
-    margin: 0 auto; 
-    width: 10%; 
+    margin: 0 auto;
+    width: 10%;
 }
 
 .inicio {
     display: flex;
-    list-style-type: none; 
-    padding: 0; 
-    margin:  0.1rem 0 0; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0.1rem 0 0;
     margin-top: 40px;
-    
 }
 
 .inicio li {
-    margin-right: 90px; 
+    margin-right: 90px;
 }
 
-.inicio li a{
+.inicio li a {
     color: white;
     text-decoration: none;
 }
 
-.cabeçalho{
+.cabeçalho {
     background: #f4f4f4;
     padding: 2.7rem;
     background-color: #61806b;
@@ -47,12 +45,10 @@ body {
     padding: 7%;
 }
 
-nav{
+nav {
     flex-direction: column;
     display: flex;
     align-items: center;
-    
-   
 }
 
 section {
@@ -75,25 +71,26 @@ p {
 
 
 .mochila-atitude {
-    display: flex;  
+    display: flex;
     align-items: center;
-    justify-content: flex-start; /* aqui eu to alinhando todos à esquerda */ 
-    margin-left:  190px; 
+    justify-content: flex-start;
+    /* aqui eu to alinhando todos à esquerda */
+    margin-left: 190px;
 }
 
 .texto-atitude {
     text-align: left;
-    flex: 1; 
-    margin-right: 0px; 
+    flex: 1;
+    margin-right: 0px;
 }
 
 .mochila-mudanca {
-    flex: 0 0 auto; 
+    flex: 0 0 auto;
 }
 
 .mochila-mudanca img {
 
-    width: 400px; 
+    width: 400px;
 }
 
 .texto-atitude h1 {
@@ -103,77 +100,83 @@ p {
 }
 
 .texto-atitude p {
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
 @keyframes moveUpDown {
     0% {
         transform: translateY(0);
     }
+
     50% {
-        transform: translateY(40px); /* aqui ta fazendo o movimento da imagem */
+        transform: translateY(40px);
+        /* aqui ta fazendo o movimento da imagem */
     }
+
     100% {
         transform: translateY(40);
     }
 
 }
+
 .mochila-mudanca img {
     width: 400px;
-    animation: moveUpDown 2s ease-in-out infinite; 
+    animation: moveUpDown 2s ease-in-out infinite;
 }
 
 
 .fazemos-juntos {
     background-image: url('imagens/calca_jeans.jpg');
-    width: 100%; 
+    width: 100%;
     height: 400px;
-    margin: 0;   
-    padding: 0;   
+    margin: 0;
+    padding: 0;
     margin-bottom: 50px;
-    display: flex; 
-    align-items: center; 
-    padding-left: 100px; 
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
 }
 
 .mudanca {
     color: #f4f4f4;
-    margin-right: 290px; 
+    margin-right: 290px;
 }
 
 .texto-mudanca {
     color: #f4f4f4;
-    max-width: 600px; 
+    max-width: 600px;
 }
 
 footer {
-    background-color: #61806b; 
-    padding: 20px; 
-    
+    background-color: #61806b;
+    padding: 20px;
+
 }
 
-footer p, li, h5{
+footer p,
+li,
+h5 {
     color: #f4f4f4;
-    
+
 }
 
 footer a {
     text-decoration: none;
-    color: #f4f4f4; 
-    transition: background-color 0.3s ease, color 0.2s ease; 
+    color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.2s ease;
 }
 
-footer a:hover { 
-    background-color: rgba(59, 59, 59, 0.7); 
+footer a:hover {
+    background-color: rgba(59, 59, 59, 0.7);
 }
 
 .footer-content {
-   
- display: flex;
- flex-direction:column;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
@@ -181,20 +184,20 @@ footer a:hover {
 }
 
 
-.redes-sociais p{
+.redes-sociais p {
     font-weight: bold;
 }
 
 header.borda-final {
     padding: 10px;
-    background-color:#738d7b; 
+    background-color: #738d7b;
 }
 
 
 .itens-final {
     display: flex;
-    justify-content: space-between;  
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -207,15 +210,16 @@ header.borda-final {
 
 
 .itens-final img {
-    max-width: 230px; 
-    max-height: 30px; 
-    margin: 0 10px; 
+    max-width: 230px;
+    max-height: 30px;
+    margin: 0 10px;
 }
 
-.logo-final{
+.logo-final {
     width: 90%;
 }
 
-.insta, .whats {
+.insta,
+.whats {
     display: inline-block;
 }

@@ -1,4 +1,4 @@
-body, h1, h2, p, ul {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,90 +12,96 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-    
+
 }
 
-#logocosmica{
-    margin: 0 auto; 
-    width: 10%; 
+#logocosmica {
+    margin: 0 auto;
+    width: 10%;
 }
 
 .inicio {
     display: flex;
-    list-style-type: none; 
-    padding: 0; 
-    margin:  0.1rem 0 0; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0.1rem 0 0;
     margin-top: 40px;
-    
+
 }
 
 .inicio li {
-    margin-right: 90px; 
+    margin-right: 90px;
 }
 
-.inicio li a{
+.inicio li a {
     color: white;
     text-decoration: none;
-    text-decoration: none;
 }
 
-.cabeçalho{
+.cabeçalho {
     background: #f4f4f4;
     padding: 2.7rem;
     background-color: #61806b;
     text-align: center;
     padding: 7%;
-    
+
 }
 
-nav{
+nav {
     flex-direction: column;
     display: flex;
     align-items: center;
-    
-   
+
+
 }
 
 .redes-sociais img {
-    margin-right: 5px; 
+    margin-right: 5px;
 }
+
 .conteiner {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    align-items: start; 
+    align-items: start;
 }
-.texto, #formu {
+
+.texto,
+#formu {
     padding: 20px;
     margin: 5px;
 }
-.formulario{
+
+.formulario {
     display: flex;
     flex-direction: column;
     padding: 5px;
     margin: 10%;
-    flex: 1; 
-    min-width: 80%; 
+    flex: 1;
+    min-width: 80%;
     max-width: 30%;
     gap: 20px;
-    border: none; 
-    border-bottom: 2px solid black; 
-    background: transparent; 
-    color: black; 
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    color: black;
     font-size: 16px;
 }
-.enviar{
+
+.enviar {
     background-color: #61806b;
     width: 20%;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
-.botao{
+
+.botao {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
 }
-.texto{
+
+.texto {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-size: 23px;
@@ -104,13 +110,16 @@ nav{
     padding: 5px;
     margin: 15%;
 }
-.t3{
+
+.t3 {
     font-weight: bold;
 }
-body{
+
+body {
     line-height: 1.6;
 }
-ul.u{
+
+ul.u {
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -121,33 +130,35 @@ ul.u{
 
 
 footer {
-    background-color: #61806b; 
-    padding: 20px; 
-    
+    background-color: #61806b;
+    padding: 20px;
+
 }
 
-footer p, li, h5{
+footer p,
+li,
+h5 {
     color: #f4f4f4;
-    
+
 }
 
 footer a {
     text-decoration: none;
-    color: #f4f4f4; 
-    transition: background-color 0.3s ease, color 0.2s ease; 
+    color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.2s ease;
 }
 
-footer a:hover { 
-    background-color: rgba(59, 59, 59, 0.7); 
+footer a:hover {
+    background-color: rgba(59, 59, 59, 0.7);
 }
 
 .footer-content {
-   
- display: flex;
- flex-direction:column;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
@@ -155,20 +166,20 @@ footer a:hover {
 }
 
 
-.redes-sociais p{
+.redes-sociais p {
     font-weight: bold;
 }
 
 header.borda-final {
     padding: 10px;
-    background-color:#738d7b; 
+    background-color: #738d7b;
 }
 
 
 .itens-final {
     display: flex;
-    justify-content: space-between;  
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -181,15 +192,16 @@ header.borda-final {
 
 
 .itens-final img {
-    max-width: 230px; 
-    max-height: 30px; 
-    margin: 0 10px; 
+    max-width: 230px;
+    max-height: 30px;
+    margin: 0 10px;
 }
 
-.logo-final{
+.logo-final {
     width: 90%;
 }
 
-.insta, .whats {
+.insta,
+.whats {
     display: inline-block;
 }

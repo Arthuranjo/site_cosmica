@@ -1,4 +1,4 @@
-body, h1, h2, p, ul {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,148 +6,158 @@ body, h1, h2, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Alumni Sans", sans-serif;
     line-height: 1.6;
+    font-size: x-large;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-    
 }
 
-.mini-borda-1{
+#digitacao{
+    color: #61806b;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation: typing 3s infinite,
+    blink-caret .5s step-end infinite;
+    z-index: 100002;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+}
+
+
+
+.mini-borda-1 {
     text-align: center;
     background-color: #61806b;
     color: rgb(255, 255, 255);
     height: 70px;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    z-index: 1000; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.mini-borda-1 li{
+.mini-borda-1 li {
     margin: 10px;
 }
+
 .inicio {
     display: flex;
-    list-style-type: none; 
+    list-style-type: none;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     padding: 0;
-    
+
 }
 
 .inicio li {
     padding: 0 20px;
 }
-.inicio li img{
-   width: 100px;
+
+.inicio li img {
+    width: 100px;
 }
 
-.inicio li a{
+.inicio li a {
     color: white;
     text-decoration: none;
     position: relative;
     z-index: 1;
-    font-size: 16px;
+    font-size: 25px;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
-    
+
 }
+
 .inicio li a:hover {
     background-color: #4c6e59;
 }
 
-#logocosmica{
+#logocosmica {
     display: block;
-    margin: 0 auto;
     position: relative;
-    z-index: 1;  
-    width: 10%;
-    margin-top: 20px;
+    z-index: 10002;
+    width: 30%;
+    margin-top: -300px;
     margin-bottom: 100px;
 }
 
-#icon{
-    width: 10%;
+#icon {
+    width: 7%;
+    margin-bottom: 30px;
 }
 
-.cabeçalho{
-
+.cabeçalho {
     position: relative;
     overflow: hidden;
     background-color: rgba(97, 128, 107, 0.7);
-    padding: 10%;
-    
-}
-
-nav{
-
+    padding: 23.7%;
     flex-direction: column;
     display: flex;
     align-items: center;
-    
-   
+
 }
 
-.background-video{
+.background-video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Faz o vídeo cobrir toda a área da navbar */
-    z-index: 0; 
+    object-fit: cover;
+    /* Faz o vídeo cobrir toda a área da navbar */
+    z-index: 10001;
 }
 
 
 
-.mini-borda-2{
+.mini-borda-2 {
     text-align: center;
     background-color: #61806b;
     color: rgb(255, 255, 255);
     height: 40px;
 }
 
-.mini-borda-2 li{
-    margin: 10px;
-}
-
-
 .mochila-texto {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    margin: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 90px;
 }
 
 .mochila {
-    flex: 0 0 100px; 
-    margin-right: 100px; 
+    flex: 0 0 100px;
+    margin-right: 100px;
     min-height: 10px;
 }
 
-.mochila img{
+.mochila img {
     width: 400px;
 }
 
 .texto-mochila {
     text-align: center;
-    flex: 2; 
+    flex: 2;
 }
 
 .texto-mochila h1 {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .texto-mochila p {
-    line-height: 4.5; 
+    line-height: 4.5;
 }
 
-.botao{
+.botao {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -162,19 +172,21 @@ nav{
 
 .secao1 {
     background-color: #61806b;
-    text-align: center; 
+    text-align: center;
     width: 100%;
-    height: 400px; 
-    margin: 0; 
-    padding: 0; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; /*centraliza vertical*/
-    align-items: center; /* Centraliza horizontal */
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*centraliza vertical*/
+    align-items: center;
+    /* Centraliza horizontal */
 }
 
 .secao1 img {
-    margin: 2px 0; 
+    margin: 2px 0;
 }
 
 .titulo1 {
@@ -182,51 +194,54 @@ nav{
     margin-top: 5px 0;
 }
 
- 
- .texto{
-     color: #f4f4f4;
-     text-align: center;
-     margin: 30px;
-     margin-top:1;
- }
+
+.texto {
+    color: #f4f4f4;
+    text-align: center;
+    margin: 30px;
+    margin-top: 1;
+}
 
 
- .calca-texto {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    margin: 90px; 
+.calca-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 90px;
 }
 
 .calca {
-    flex: 1; 
-    margin-left: 100px; 
+    flex: 1;
+    margin-left: 100px;
 }
 
-.calca img{
+.calca img {
     width: 400px;
 }
 
 .texto-calca {
     text-align: center;
-    flex: 2; 
+    flex: 2;
 }
 
 .texto-calca h1 {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .texto-calca p {
-    line-height: 2.5; 
+    line-height: 2.5;
 }
 
 @keyframes moveUpDown {
     0% {
         transform: translateY(0);
     }
+
     50% {
-        transform: translateY(40px); /* aqui ta fazendo o movimento da imagem */
+        transform: translateY(40px);
+        /* aqui ta fazendo o movimento da imagem */
     }
+
     100% {
         transform: translateY(40);
     }
@@ -234,152 +249,183 @@ nav{
 
 .calca img {
     width: 400px;
-    animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
+    animation: moveUpDown 2s ease-in-out infinite;
+    /* ta aplicando o movimento na imagem */
 }
 
-.mochila img{
+.mochila img {
     width: 400px;
-    animation: moveUpDown 2s ease-in-out infinite; /* ta aplicando o movimento na imagem */
+    animation: moveUpDown 2s ease-in-out infinite;
+    /* ta aplicando o movimento na imagem */
 }
 
 
 .produtos {
-    text-align: center; 
+    text-align: center;
 }
 
-.produto1, .produto2, .produto3, .produto4, .produto5 {
-    display: inline-block; /* aqui permite que os artigos fiquem lado a lado */
+.produto1,
+.produto2,
+.produto3,
+.produto4,
+.produto5 {
+    display: inline-block;
+    /* aqui permite que os artigos fiquem lado a lado */
     margin: 20px;
 }
 
-.produto1 img, .produto2 img, .produto3 img, .produto4 img, .produto5 img {
-    max-width: 200px; 
-    height: auto; 
-    transition: transform 0.3s ease; /* Suaviza a transição */
+.produto1 img,
+.produto2 img,
+.produto3 img,
+.produto4 img,
+.produto5 img {
+    max-width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+    /* Suaviza a transição */
 }
 
-.produto1 img:hover, .produto2 img:hover, .produto3 img:hover, .produto4 img:hover, .produto5 img:hover {
-    transform: translateY(-40px); /* Move a imagem para cima ao passar o mouse */
+.produto1 img:hover,
+.produto2 img:hover,
+.produto3 img:hover,
+.produto4 img:hover,
+.produto5 img:hover {
+    transform: translateY(-40px);
+    /* Move a imagem para cima ao passar o mouse */
 }
 
 .botao-produtos {
     display: block;
     margin: 20px auto;
-    text-decoration: none; 
-    background-color: #61806b; 
-    color: white; 
-    padding: 10px; 
-    border-radius: 5px; 
-    width: 100px; 
+    text-decoration: none;
+    background-color: #61806b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
     margin-bottom: 100px;
-     
+
 }
 
-.formulario-principal{
+.formulario-principal {
     background-image: url('imagens/calca_jeans.jpg');
-     width: 100%; 
-     height: 300px;
-     margin: 0;    /* Remove a margem */
-     padding: 0;   /* Remove o padding */
-     margin-bottom: 100px;
-     text-align: center;
- }
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    /* Remove a margem */
+    padding: 0;
+    /* Remove o padding */
+    margin-bottom: 100px;
+    text-align: center;
+}
 
- .titulo-formulario{
+.titulo-formulario {
     font-size: 30px;
- }
+}
 
- .titulo-formulario, .subtitulo-formulario{
+.titulo-formulario,
+.subtitulo-formulario {
     display: flex;
     color: #f4f4f4;
     justify-content: center;
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 
-.formulario{
-        display: flex; 
-        flex-direction: column; 
-        align-items: center; 
-        gap: 20px; 
-        margin-top: 20px; 
-    }
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 
 .input-form {
-        display: flex; 
-        gap: 20px; /* Espaço entre os inputs */
-    }
-    
+    display: flex;
+    gap: 20px;
+    /* Espaço entre os inputs */
+}
+
 .envio-informacao {
-    flex: 1; 
-    min-width: 250px; 
+    flex: 1;
+    min-width: 250px;
     max-width: 300px;
-    margin: 0; 
+    margin: 0;
     gap: 50px;
-    padding: 10px; 
-    border: none; 
-    border-bottom: 2px solid white; 
-    background: transparent; 
-    color: white; 
-    font-size: 16px; 
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 16px;
 }
 
 .botao-envio {
     display: block;
-    margin: 20px auto;;
-    background: transparent; 
-    color: white;  
-    padding: 10px 40px; 
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    font-size: 16px; 
-    border-radius: 10px; 
+    margin: 20px auto;
+    ;
+    background: transparent;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    /* Muda o cursor ao passar o mouse */
+    font-size: 16px;
+    border-radius: 10px;
     transition: background-color 0.3s;
 }
 
 .botao-envio:hover {
-    background-color: rgba(255, 255, 255, 0.7); 
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .parte-final {
-    display: flex; 
-    align-items: flex-start; 
+    display: flex;
+    align-items: flex-start;
     margin-bottom: 70px;
 }
 
 .titulo-container {
-    margin-right: 100px; /* aqui eu to mexendo no espaço entre o título e as imagens */
+    margin-right: 100px;
+    /* aqui eu to mexendo no espaço entre o título e as imagens */
 }
 
-.ultimo-titulo, .ultimo-subtitulo {
-    
-    margin: 0px; 
+.ultimo-titulo,
+.ultimo-subtitulo {
+
+    margin: 0px;
     margin-left: 100px;
 }
 
-.ultimo-subtitulo{
-    
+.ultimo-subtitulo {
+
     font-size: 12px;
     color: gray;
 }
 
-.imagens-nosso-trabalho{
-    display: flex; 
+.imagens-nosso-trabalho {
+    display: flex;
     width: 20%;
 }
 
-.imagem-trabalho1, .imagem-trabalho2, .imagem-trabalho3 {
-    margin: 0 80px; /* aqui eu to mexendo na margem lateral dos lados */
+.imagem-trabalho1,
+.imagem-trabalho2,
+.imagem-trabalho3 {
+    margin: 0 80px;
+    /* aqui eu to mexendo na margem lateral dos lados */
 }
 
-.imagem-trabalho1 img, .imagem-trabalho2 img, .imagem-trabalho3 img {
-    width: 300px; 
-    height: auto; 
+.imagem-trabalho1 img,
+.imagem-trabalho2 img,
+.imagem-trabalho3 img {
+    width: 300px;
+    height: auto;
 }
-ul.u{
+
+ul.u {
     padding: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 
@@ -391,33 +437,35 @@ ul.u{
 
 
 footer {
-    background-color: #61806b; 
-    padding: 20px; 
-    
+    background-color: #61806b;
+    padding: 20px;
+
 }
 
-footer p, li, h5{
+footer p,
+li,
+h5 {
     color: #f4f4f4;
-    
+
 }
 
 footer a {
     text-decoration: none;
-    color: #f4f4f4; 
-    transition: background-color 0.3s ease, color 0.2s ease; 
+    color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.2s ease;
 }
 
-footer a:hover { 
-    background-color: rgba(59, 59, 59, 0.7); 
+footer a:hover {
+    background-color: rgba(59, 59, 59, 0.7);
 }
 
 .footer-content {
-   
- display: flex;
- flex-direction:column;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
@@ -425,20 +473,20 @@ footer a:hover {
 }
 
 
-.redes-sociais p{
+.redes-sociais p {
     font-weight: bold;
 }
 
 header.borda-final {
     padding: 10px;
-    background-color:#738d7b; 
+    background-color: #738d7b;
 }
 
 
 .itens-final {
     display: flex;
-    justify-content: space-between;  
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -451,25 +499,16 @@ header.borda-final {
 
 
 .itens-final img {
-    max-width: 230px; 
-    max-height: 30px; 
-    margin: 0 10px; 
+    max-width: 230px;
+    max-height: 30px;
+    margin: 0 10px;
 }
 
-.logo-final{
+.logo-final {
     width: 90%;
 }
 
-.insta, .whats {
+.insta,
+.whats {
     display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-

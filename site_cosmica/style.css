@@ -1,4 +1,4 @@
-body, h1, h2, p, ul {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,34 +12,34 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-    
+
 }
 
-#logocosmica{
+#logocosmica {
     display: block;
-    margin: 0 auto; 
-    width: 10%; 
+    margin: 0 auto;
+    width: 10%;
 }
 
 .inicio {
     display: flex;
-    list-style-type: none; 
-    padding: 0; 
-    margin:  0.1rem 0 0; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0.1rem 0 0;
     margin-top: 40px;
-    
+
 }
 
 .inicio li {
-    margin-right: 90px; 
+    margin-right: 90px;
 }
 
-.inicio li a{
+.inicio li a {
     color: white;
     text-decoration: none;
 }
 
-.cabeçalho{
+.cabeçalho {
     background: #f4f4f4;
     padding: 2.7rem;
     background-color: #61806b;
@@ -47,12 +47,12 @@ body {
     padding: 7%;
 }
 
-nav{
+nav {
     flex-direction: column;
     display: flex;
     align-items: center;
-    
-   
+
+
 }
 
 section {
@@ -73,38 +73,40 @@ p {
     margin-bottom: 15px;
 }
 
-.secao1{
-   background-image: url('imagens/calca_jeans.jpg');
-    width: 100%; 
+.secao1 {
+    background-image: url('imagens/calca_jeans.jpg');
+    width: 100%;
     height: 400px;
-    margin: 0;    /* Remove a margem */
-    padding: 0;   /* Remove o padding */
+    margin: 0;
+    /* Remove a margem */
+    padding: 0;
+    /* Remove o padding */
 }
 
-.titulo1{
+.titulo1 {
     color: #f4f4f4;
     display: flex;
     position: relative;
     top: 170px;
     left: 100px;
-    
-   
+
+
 }
 
-.texto{
+.texto {
     color: #f4f4f4;
     text-align: center;
 }
 
-.paragrafo2{
+.paragrafo2 {
     text-align: center;
 }
 
-.imagens{
+.imagens {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 
@@ -112,61 +114,66 @@ p {
 .imagem1,
 .imagem2,
 .imagem3 {
-    margin: 10px; 
+    margin: 10px;
 }
 
-.imagens{
-    display: flex; /*alinha os itens*/
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Alinha verticalmente */
+.imagens {
+    display: flex;
+    /*alinha os itens*/
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    align-items: center;
+    /* Alinha verticalmente */
 }
 
 .img {
-    width: 400px; 
-    height: auto;  
+    width: 400px;
+    height: auto;
 }
 
 .item {
     display: flex;
     flex-direction: row;
-    align-items: center; 
-    margin: 10px; 
+    align-items: center;
+    margin: 10px;
 }
 
 .sinais p {
-    font-size: 54px; 
-    margin: 5px 0; 
+    font-size: 54px;
+    margin: 5px 0;
     color: green;
 }
 
 footer {
-    background-color: #61806b; 
-    padding: 20px; 
-    
+    background-color: #61806b;
+    padding: 20px;
+
 }
 
-footer p, li, h5{
+footer p,
+li,
+h5 {
     color: #f4f4f4;
-    
+
 }
 
 footer a {
     text-decoration: none;
-    color: #f4f4f4; 
-    transition: background-color 0.3s ease, color 0.2s ease; 
+    color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.2s ease;
 }
 
-footer a:hover { 
-    background-color: rgba(59, 59, 59, 0.7); 
+footer a:hover {
+    background-color: rgba(59, 59, 59, 0.7);
 }
 
 .footer-content {
-   
- display: flex;
- flex-direction:column;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
@@ -174,20 +181,20 @@ footer a:hover {
 }
 
 
-.redes-sociais p{
+.redes-sociais p {
     font-weight: bold;
 }
 
 header.borda-final {
     padding: 10px;
-    background-color:#738d7b; 
+    background-color: #738d7b;
 }
 
 
 .itens-final {
     display: flex;
-    justify-content: space-between;  
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -200,76 +207,16 @@ header.borda-final {
 
 
 .itens-final img {
-    max-width: 230px; 
-    max-height: 30px; 
-    margin: 0 10px; 
+    max-width: 230px;
+    max-height: 30px;
+    margin: 0 10px;
 }
 
-.logo-final{
+.logo-final {
     width: 90%;
 }
 
-.insta, .whats {
+.insta,
+.whats {
     display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3%;
-    padding: 100px;
-    border-radius: 15px;
-    margin-bottom: 5%;
-}
-
-.grid-item1 {
-    background-color: #f4f4f4;
-    border: 1px solid rgba(71, 160, 120);
-    padding: 20px;
-    box-shadow: 10px 10px 10px 5px rgb(71, 160, 120);
-    text-align: center;
-    border-radius: 20px;
-}
-
-.grid-item1 h2 {
-    margin-top: 0;
-    text-align: center;
-}
-
-.grid-item1 p {
-    text-align: center;
-    margin: 0;
-}
-
-/*.upcycling {
-    position: relative; 
-    background-color: blue;
-    /*background-image: url('imagens/estrelas.jpg');
-    background-size: cover; /* Ajusta a imagem para cobrir o contêiner 
-    width: 100vh;
-    margin: 0;
-    left: 50%; /*centralizar
-    transform: translateX(-50%); /* Ajusta para centralizar 
-}
-
-.texto {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); /*CENTRALIZANDO NO MEIO
-    color: white;
-    text-align: center; 
-    padding: 10px; 
-    border-radius: 5px; 
-}*/
