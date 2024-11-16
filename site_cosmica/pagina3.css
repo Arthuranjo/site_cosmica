@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: x-large;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
