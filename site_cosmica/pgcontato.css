@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-
 }
 
 #logocosmica {
@@ -27,7 +26,6 @@ body {
     padding: 0;
     margin: 0.1rem 0 0;
     margin-top: 40px;
-
 }
 
 .inicio li {
@@ -45,15 +43,12 @@ body {
     background-color: #61806b;
     text-align: center;
     padding: 7%;
-
 }
 
 nav {
     flex-direction: column;
     display: flex;
     align-items: center;
-
-
 }
 
 .redes-sociais img {
@@ -127,20 +122,15 @@ ul.u {
     align-items: flex-end;
 }
 
-
-
-
 footer {
     background-color: #61806b;
     padding: 20px;
-
 }
 
 footer p,
 li,
 h5 {
     color: #f4f4f4;
-
 }
 
 footer a {
@@ -154,7 +144,6 @@ footer a:hover {
 }
 
 .footer-content {
-
     display: flex;
     flex-direction: column;
 }
@@ -166,7 +155,6 @@ footer a:hover {
     margin-right: 30px;
 }
 
-
 .redes-sociais p {
     font-weight: bold;
 }
@@ -176,13 +164,11 @@ header.borda-final {
     background-color: #738d7b;
 }
 
-
 .itens-final {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .itens-final ul {
     list-style-type: none;
@@ -190,7 +176,6 @@ header.borda-final {
     padding: 0;
     display: flex;
 }
-
 
 .itens-final img {
     max-width: 230px;

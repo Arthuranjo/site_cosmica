@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-
 }
 
 #logocosmica {
@@ -28,7 +27,6 @@ body {
     padding: 0;
     margin: 0.1rem 0 0;
     margin-top: 40px;
-
 }
 
 .inicio li {
@@ -52,8 +50,6 @@ nav {
     flex-direction: column;
     display: flex;
     align-items: center;
-
-
 }
 
 
@@ -79,7 +75,6 @@ nav {
 }
 
 .produto-mochila img {
-
     width: 400px;
 }
 
@@ -97,14 +92,11 @@ nav {
     width: 400px;
 }
 
-
-
 .titulo-produto {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 50px;
 }
-
 
 .blocos-produtos {
     display: flex;
@@ -138,7 +130,6 @@ nav {
     justify-content: center;
 }
 
-
 .preco-descricao {
     text-align: center;
     width: 30%;
@@ -149,7 +140,6 @@ nav {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 
 .tabela-produtos p {
     font-size: 16px;
@@ -162,9 +152,6 @@ nav {
     margin-top: 200px;
     margin-bottom: 60px;
 }
-
-
-
 
 .produtos {
     background-color: rgb(137, 137, 137, 0.5);
@@ -186,7 +173,6 @@ nav {
     margin-bottom: 200px;
 
 }
-
 
 .nossos-produtos {
     background: #f4f4f4;
@@ -216,7 +202,6 @@ nav {
     height: auto;
     margin-left: 10px;
     border-radius: 10px;
-
 }
 
 .texto-produto {
@@ -264,7 +249,6 @@ nav {
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
-
 }
 
 .miniatura {
@@ -336,14 +320,12 @@ nav {
 footer {
     background-color: #61806b;
     padding: 20px;
-
 }
 
 footer p,
 li,
 h5 {
     color: #f4f4f4;
-
 }
 
 footer a {
@@ -357,7 +339,6 @@ footer a:hover {
 }
 
 .footer-content {
-
     display: flex;
     flex-direction: column;
 }
@@ -369,7 +350,6 @@ footer a:hover {
     margin-right: 30px;
 }
 
-
 .redes-sociais p {
     font-weight: bold;
 }
@@ -379,13 +359,11 @@ header.borda-final {
     background-color: #738d7b;
 }
 
-
 .itens-final {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .itens-final ul {
     list-style-type: none;
@@ -393,7 +371,6 @@ header.borda-final {
     padding: 0;
     display: flex;
 }
-
 
 .itens-final img {
     max-width: 230px;

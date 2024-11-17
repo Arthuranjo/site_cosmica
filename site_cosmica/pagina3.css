@@ -70,7 +70,6 @@ p {
     margin-bottom: 15px;
 }
 
-
 .mochila-atitude {
     display: flex;
     align-items: center;
@@ -125,7 +124,6 @@ p {
     animation: moveUpDown 2s ease-in-out infinite;
 }
 
-
 .fazemos-juntos {
     background-image: url('imagens/calca_jeans.jpg');
     width: 100%;
@@ -158,7 +156,6 @@ footer p,
 li,
 h5 {
     color: #f4f4f4;
-
 }
 
 footer a {
@@ -184,7 +181,6 @@ footer a:hover {
     margin-right: 30px;
 }
 
-
 .redes-sociais p {
     font-weight: bold;
 }
@@ -194,13 +190,11 @@ header.borda-final {
     background-color: #738d7b;
 }
 
-
 .itens-final {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .itens-final ul {
     list-style-type: none;
@@ -208,7 +202,6 @@ header.borda-final {
     padding: 0;
     display: flex;
 }
-
 
 .itens-final img {
     max-width: 230px;

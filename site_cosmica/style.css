@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(255, 251, 251);
-
 }
 
 #logocosmica {
@@ -28,7 +27,6 @@ body {
     padding: 0;
     margin: 0.1rem 0 0;
     margin-top: 40px;
-
 }
 
 .inicio li {
@@ -52,8 +50,6 @@ nav {
     flex-direction: column;
     display: flex;
     align-items: center;
-
-
 }
 
 section {
@@ -79,9 +75,7 @@ p {
     width: 100%;
     height: 400px;
     margin: 0;
-    /* Remove a margem */
     padding: 0;
-    /* Remove o padding */
 }
 
 .titulo1 {
@@ -90,8 +84,6 @@ p {
     position: relative;
     top: 170px;
     left: 100px;
-
-
 }
 
 .texto {
@@ -107,10 +99,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-
 
 .imagem1,
 .imagem2,
@@ -120,11 +109,8 @@ p {
 
 .imagens {
     display: flex;
-    /*alinha os itens*/
     justify-content: center;
-    /* Centraliza os itens horizontalmente */
     align-items: center;
-    /* Alinha verticalmente */
 }
 
 .img {
@@ -148,14 +134,12 @@ p {
 footer {
     background-color: #61806b;
     padding: 20px;
-
 }
 
 footer p,
 li,
 h5 {
     color: #f4f4f4;
-
 }
 
 footer a {
@@ -169,7 +153,6 @@ footer a:hover {
 }
 
 .footer-content {
-
     display: flex;
     flex-direction: column;
 }
@@ -181,7 +164,6 @@ footer a:hover {
     margin-right: 30px;
 }
 
-
 .redes-sociais p {
     font-weight: bold;
 }
@@ -191,13 +173,11 @@ header.borda-final {
     background-color: #738d7b;
 }
 
-
 .itens-final {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .itens-final ul {
     list-style-type: none;
@@ -205,7 +185,6 @@ header.borda-final {
     padding: 0;
     display: flex;
 }
-
 
 .itens-final img {
     max-width: 230px;
