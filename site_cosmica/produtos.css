@@ -386,3 +386,57 @@ header.borda-final {
 .whats {
     display: inline-block;
 }
+
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-size: large;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inicio li{
+        margin: 0;
+    }
+
+    .inicio{
+        flex-direction: column;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .mochila-produto{
+        margin: 0;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .texto-produto{
+        align-items: center;
+    }
+
+    .todos-produtos{
+        margin-bottom: 0;
+    }
+
+    .produto-principal{
+        margin-right: 0;
+        align-self: auto;
+    }
+
+    .nossos-produtos{
+        margin-left: 0;
+    }
+
+    .produtos{
+        flex-direction: column;
+        align-items: center;
+    }
+}

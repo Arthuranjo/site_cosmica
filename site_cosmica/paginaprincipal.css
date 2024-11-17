@@ -416,7 +416,6 @@ ul.u {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 footer {
@@ -488,6 +487,11 @@ footer a:hover {
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+
+    .inicio li{
+        margin: 0;
+        padding: 0;
     }
 
     #logocosmica {
