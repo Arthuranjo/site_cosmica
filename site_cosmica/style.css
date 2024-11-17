@@ -90,7 +90,9 @@ p {
 
 .texto {
     color: #f4f4f4;
-    text-align: center;
+    text-align: justify;
+    margin-top: 15px;
+    width: 60%;
 }
 
 .paragrafo2 {
@@ -224,5 +226,9 @@ header.borda-final {
 
     .item{
         flex-direction: column;
+    }
+
+    .texto{
+        width: 80%;
     }
 }

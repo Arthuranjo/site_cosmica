@@ -155,7 +155,7 @@ body {
 }
 
 .texto-mochila p {
-    line-height: 4.5;
+    margin-bottom: 15px;
 }
 
 .botao {
@@ -217,7 +217,7 @@ body {
 }
 
 .texto-calca {
-    text-align: center;
+    text-align: justify;
     flex: 2;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .texto-calca p {
-    line-height: 2.5;
+    margin-bottom: 15px;
 }
 
 @keyframes moveUpDown {
