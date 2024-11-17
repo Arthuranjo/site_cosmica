@@ -489,18 +489,13 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .inicio li{
-        margin: 0;
-        padding: 0;
-    }
-
     #logocosmica {
         width: 60%;
         margin-top: 0;
         margin-bottom: 60px;
     }
 
-    #digitacao{
+    #digitacao, .mini-borda-1{
         display: none;
     }
 
