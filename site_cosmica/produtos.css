@@ -385,6 +385,21 @@ header.borda-final {
     display: inline-block;
 }
 
+.texto-titulo-produto{
+    text-align: justify;
+    width: 80%;
+}
+
+.descri-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descri-prod p{
+    margin-bottom: 20px;
+}
+
 @media (max-width: 768px){
     *{
         margin: 0;
