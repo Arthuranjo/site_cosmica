@@ -1,1 +1,245 @@
-m.
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/LOGO-icone-VERDE.png" type="image/x-icon">
+    <link rel="stylesheet" href="paginaprincipal.css">
+    <title>Cosmica Cria</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+</head>
+
+<body>
+
+    <nav class="cabeçalho">
+        <div class="topo">
+            <video autoplay muted loop class="background-video">
+                <source src="imagens/video-principal.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+        </div>
+
+        <img id="logocosmica" src="imagens/LOGO-VERDE.png">
+
+        <h1 id="digitacao">Quando você muda, o mundo muda</h1>
+    </nav>
+
+    <header class="mini-borda-2">
+        <ul>
+            <li> MODA REGENERATIVA | BOLSAS CRIADAS COM RESÍDUOS TÊXTIL </li>
+        </ul>
+    </header>
+
+    <header class="mini-borda-1">
+        <ul class="inicio">
+            <li><img src="imagens/LOGO-BRANCO.png"> </li>
+            <li><a class="n" href="index.html">HOME</a></li>
+            <li><a class="n" href="pgafeto.html">AFETO</a></li>
+            <li><a class="n" href="pgimpacto.html">IMPACTO</a></li>
+            <li><a class="n" href="produtos.html">PRODUTOS</a></li>
+            <li><a class="n" href="pgcontato.html">CONTATOS</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="mochila-texto">
+            <div class="mochila">
+                <img src="imagens/mochila-principal.png">
+            </div>
+
+            <div class="texto-mochila">
+
+                <h1>A MUDANÇA EM NÓS</h1>
+
+                <p>A Cósmica Upcycle acredita que consumir de forma consciente transforma não apenas o mundo, mas também a nós mesmos. Cada peça que criamos carrega afeto, história e um compromisso com a sustentabilidade. Transformamos resíduos têxteis em bolsas únicas, provando que é possível unir beleza, funcionalidade e impacto positivo. Escolher a Cósmica é abraçar uma nova forma de enxergar o consumo: mais humana, generosa e abundante.
+                </p>
+                <a href="index.html" class="botao">SAIBA MAIS</a>
+
+            </div>
+        </section>
+
+
+        <section class="secao1">
+
+            <img id="icon" src="imagens/LOGO-icone-BRANCO.png">
+            <h1 class="titulo1">A CÓSMICA UPCYCLE É TRANSFORMAÇÃO</h1>
+
+            <p class="texto">
+                Olhamos para o que parecia não ter mais valor e enxergamos potencial, criando novas histórias e significados.
+Transformamos resíduos têxteis em bolsas.
+            </p>
+
+        </section>
+
+        <section class="calca-texto">
+            <div class="texto-calca">
+                <h1>A MUDANÇA NO MUNDO</h1>
+                <p>Na Cósmica Cria, transformamos resíduos têxteis em bolsas que contam histórias e reduzem o desperdício. Nosso trabalho reflete um compromisso com o planeta, mostrando que escolhas conscientes podem gerar mudanças reais. Cada peça é uma ação contra a poluição da indústria têxtil, promovendo um ciclo mais sustentável. Ao consumir com propósito, ajudamos a construir um mundo mais generoso com as pessoas e com o meio ambiente..
+                </p>
+                <a href="pgimpacto.html" class="botao">SAIBA MAIS</a>
+            </div>
+
+            <div class="calca">
+                <img src="imagens/calcaprincipal.png" alt="calca">
+            </div>
+        </section>
+
+        <section class="produtos">
+
+            <h1>DESCUBRA MAIS SOBRE OS NOSSOS PRODUTOS</h1>
+
+            <article class="produto1">
+                <a href="produtos.html">
+                    <img src="imagens/mochila-principal.png" alt="Mochila">
+                </a>
+            </article>
+
+            <article class="produto2">
+                <a href="produtos.html">
+                    <img src="imagens/calcaprincipal.png">
+                </a>
+            </article>
+
+            <article class="produto3">
+                <a href="produtos.html">
+                    <img src="imagens/mochila-principal.png">
+                </a>
+            </article>
+
+            <article class="produto4">
+                <a href="produtos.html">
+                    <img src="imagens/calcaprincipal.png">
+                </a>
+            </article>
+
+            <article class="produto5">
+                <a href="produtos.html">
+                    <img src="imagens/mochila-principal.png">
+                </a>
+            </article>
+
+            <a href="produtos.html" class="botao-produtos">SAIBA MAIS</a>
+
+        </section>
+
+        <section class="formulario-principal">
+
+            <h1 class="titulo-formulario">
+                FAÇA PARTE DA TRANSFORMAÇÃO
+            </h1>
+
+            <h2 class="subtitulo-formulario">
+                Receba nossa newsletter com novidades
+            </h2>
+
+            <form class="formulario">
+                <div class="input-form">
+                    <input class="envio-informacao" type="text" placeholder="Preencha seu nome" required>
+                    <input class="envio-informacao" type="text" placeholder="Preencha seu email" required>
+                </div>
+                <button class="botao-envio" type="submit">Enviar</button>
+            </form>
+
+        </section>
+
+        <section class="parte-final">
+
+            <div class="nosso-trabalho">
+                <h1 class="ultimo-titulo"> CONHEÇA<br>NOSSO<br>TRABALHO</h1>
+                <h3 class="ultimo-subtitulo">@COSMICACRIA</h3>
+            </div>
+
+            <div class="imagens-nosso-trabalho">
+
+                <article class="imagem-trabalho1">
+                    <img src="imagens/bolsa-preto-branco.JPEG">
+                </article>
+
+                <article class="imagem-trabalho2">
+                    <img src="imagens/bolsa-azul.JPEG">
+                </article>
+
+                <article class="imagem-trabalho3">
+                    <img src="imagens/bolsa_florida.JPEG">
+                </article>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="footer-content">
+
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <p>Nav</p>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="pgafeto.html">Afeto</a>
+                        </li>
+
+                        <li>
+                            <a href="pgimpacto.html">Impacto</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <p>Sobre nós</p>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="produtos.html">Produtos</a>
+                        </li>
+
+                        <li>
+                            <a href="pgcontato.html">Contato</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <p>Suporte</p>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="produtos.html">Produtos</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html">Sobre nós</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="borda-final">
+            <div class="itens-final">
+                <ul>
+                    <li><img class="logo-final" src="imagens/LOGO-BRANCO.png"></li>
+                </ul>
+
+                <ul>
+                    <li class="insta"><img src="imagens/instagram.png"></li>
+                    <li class="insta"><img src="imagens/instagram.png"></li>
+                    <li class="insta"><img src="imagens/instagram.png"></li>
+                </ul>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
