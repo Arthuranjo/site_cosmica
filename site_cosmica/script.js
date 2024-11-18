@@ -3,35 +3,35 @@ let detalhesVisiveis = false;
 function mostrarDetalhes(produtoId) {
     const produtos = {
         1: {
-            img: "imagens/mochila-principal.png",
+            img: "./fotos-cosmica/1.png",
             titulo: "BOLSA TRANSVERSAL AFETO",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["Couro", "Camursa", "Feito com roupas"]
         },
         2: {
-            img: "imagens/calcaprincipal.png",
+            img: "./fotos-cosmica/2.png",
             titulo: "BOLSA AFETO 2",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["tecido", "Preto", "Bicolor"]
         },
         3: {
-            img: "imagens/mochila-principal.png",
+            img: "./fotos-cosmica/3.png",
             titulo: "BOLSA AFETO 3",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["Alguma coisa", "alguma coisa", "Outra coisa"]
         },
         4: {
-            img: "imagens/mochila-principal.png",
+            img: "./fotos-cosmica/4.png",
             titulo: "BOLSA AFETO 4",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["coisa um", "Coisa dois", "Coisa tres"]
         },
         5: {
-            img: "imagens/mochila-principal.png",
+            img: "./fotos-cosmica/5.png",
             titulo: "BOLSA AFETO 5",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",

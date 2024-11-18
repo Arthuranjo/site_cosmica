@@ -400,10 +400,18 @@ header.borda-final {
     margin-bottom: 20px;
 }
 
+.tabela-produtos img{
+    width: 300px;
+}
+
 @media (max-width: 768px){
     *{
         margin: 0;
         padding: 0;
+    }
+
+    .tabela-produtos img{
+        width: 150px;
     }
 
     body {
